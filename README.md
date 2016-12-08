@@ -14,8 +14,8 @@ Aplicação fruto de meus estudos e desenvolvida inteiramente com NodeJS (https:
 A aplicação faz uso das seguintes dependências:
 
 * ExpressJS
-* Express Validator
 * Body Parser
+* Express Validator
 * Consign
 * EJS
 * MySQL
@@ -23,7 +23,7 @@ A aplicação faz uso das seguintes dependências:
 ## Uso do banco de dados MySQL
 Você precisa ter instalado em sua máquina o banco de dados MySQL. Para fazer o download e instalação, basta acessar este link (http://dev.mysql.com/downloads/) e caçar sua preferência.
 
-Com o MySQL instalado, cria o banco "portal_noticas" e a tabela "noticias":
+Com o MySQL instalado, crie o banco "portal_noticias" e a tabela "noticias":
 ```
   >> create database portal_noticias;
   >> use portal_noticias;
@@ -58,8 +58,8 @@ OBS.: Lembre-se de ir no arquivo config/dbConnection.js e mudar a propriedade "p
   node app.js
 ```
 5: Em seu navegador, digite o seguinte link:
-  > http://localhost:3000
+  http://localhost:3000
 
 ## Dicas
 Para cadastrar uma nova notícia, acesse diretamente o link:
-  > http://localhost:3000/formulario_inclusao_noticia
+  http://localhost:3000/formulario_inclusao_noticia
