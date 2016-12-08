@@ -58,8 +58,12 @@ OBS.: Lembre-se de ir no arquivo config/dbConnection.js e mudar a propriedade "p
   node app.js
 ```
 5: Em seu navegador, digite o seguinte link:
+```
   http://localhost:3000
+```
 
 ## Dicas
 Para cadastrar uma nova notícia, acesse diretamente o link:
+```
   http://localhost:3000/formulario_inclusao_noticia
+```
